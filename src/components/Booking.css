@@ -1,0 +1,32 @@
+main {
+    background-image: url(./images/hell.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    background-color: #040404;
+}
+
+.form {
+    position: absolute;
+    height: 70vh;
+    width: 50%;
+    top: 10%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.form input {
+    height: 4vh;
+    width: 100%;
+    margin-top: 10%;
+    box-shadow:1px 10px 10px grey;;
+
+}
+
